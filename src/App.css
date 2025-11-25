@@ -1,0 +1,273 @@
+body {
+  letter-spacing: 0.2px;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: x-large;
+  color: #d1d5db;
+
+}
+.container{
+  padding: 0 4rem;
+}
+.header{
+padding: 0.7rem;
+border-bottom: 1px solid #3a3a3a;
+opacity: 1;
+position: sticky;
+top: 0;
+z-index: 1020;
+}
+
+.name{
+  font-size: 75px;
+  font-weight: 900;
+  color: #d1d5db;
+
+}
+.projects .name, .tech-stack .name, .connect .name{
+  font-size: 55px;
+}
+.role{
+  color: gray;
+  font-size: 1.7rem;
+
+}
+.dash{
+  background-color: #8b5cf6;
+  height: 4px;
+  width: 80px;
+  margin: 2rem 0;
+}
+.description{
+font-size: 1.3rem;
+width: 900px;
+margin-bottom: 1rem;
+}
+.project-descr{
+font-size: 1rem;
+margin-bottom: 1rem;
+color: gray;
+font-weight:600;
+
+}
+.contact-btn{
+  background-color: #8b5cf6;
+  padding: 0.7rem 1.2rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+.contact-btn:hover {
+  filter: brightness(1.2);
+}
+.resume-btn{
+  border: 0.5px solid #8b5cf6;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  transition: background-color 0.5s ease;
+}
+.resume-btn:hover{
+  background-color: #8b5cf6;
+  color: white;
+}
+.flex{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.tech-flex, .connection-flex, .projects-flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.intro, .projects, .tech-stack, .connect,.footer{
+  margin-top: 10rem;
+}
+.proj-card{
+ max-width: 420px;
+background-color: #0a0a0a;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+overflow: hidden;
+border-radius: 1rem;
+
+}
+.proj-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+.card-info{
+  padding: 2rem 1rem;  
+}
+.proj-img{
+  height: auto;
+  width: 100%;
+  opacity: 0.8;
+  height: 400px;
+  object-fit: cover;
+}
+.proj-name{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  margin: 0.5rem 0rem;
+}
+.tech{
+  padding: 0.3rem;
+  background-color: #1b1b1b;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+
+}
+.icon-flex{
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.footer{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.connect .col{
+  gap: 1rem;
+}
+.tech-item {
+  width: calc(25% - 1.5rem);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+.connection-card{
+  width: calc(50% - 1rem);
+  background-color: #0a0a0a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+
+}
+.connection-card:hover{
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+.connections{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 1rem;
+}
+.connection-name{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.connection-value{
+  color: gray;
+}
+
+
+/* Large Tablets / Small Laptops */
+@media (max-width: 992px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .name {
+    font-size: 55px;
+  }
+
+  .projects .name,
+  .tech-stack .name,
+  .connect .name {
+    font-size: 40px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .tech-item {
+    width: calc(33.33% - 1.5rem);
+  }
+
+  .connection-card {
+    width: calc(50% - 1.5rem);
+  }
+  .proj-card{
+    max-width: 100%;
+  }
+}
+
+/* Tablets / Medium Screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+
+  .projects .name,
+  .tech-stack .name,
+  .connect .name {
+    font-size: 34px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .proj-img {
+    height: 300px;
+  }
+
+  .tech-item {
+    width: calc(50% - 1.5rem);
+  }
+
+  .connection-card {
+    width: 100%;
+  }
+  .proj-card{
+    max-width: 100%;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .projects .name,
+  .tech-stack .name,
+  .connect .name {
+    font-size: 28px;
+  }
+
+  .proj-img {
+    height: 240px;
+  }
+
+  .tech-item {
+    width: 100%;
+  }
+  .proj-card{
+    max-width: 100%;
+  }
+}
