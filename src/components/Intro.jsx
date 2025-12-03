@@ -1,4 +1,4 @@
-const Intro = () => {
+const Intro = ({ onScrollClick }) => {
   return (
     <>
       <div className="container">
@@ -16,10 +16,15 @@ const Intro = () => {
             well and actually feel good for people to use.
           </p>
           <div className="flex">
-            <a href="" className="contact-btn">
+            <a onClick={onScrollClick} className="contact-btn">
               Contact Me
             </a>
-            <a href="" className="resume-btn">
+            <a
+              href="https://drive.google.com/file/d/1XrdAhauRcBh5CtTwD6TR6rl18l-fgE9M/view?usp=drive_link"
+              className="resume-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </div>

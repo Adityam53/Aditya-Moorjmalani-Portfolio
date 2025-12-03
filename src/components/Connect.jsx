@@ -1,5 +1,5 @@
 import { FaGithub, FaMailBulk, FaLinkedin } from "react-icons/fa";
-import { SiCodesandbox } from "react-icons/si";
+import { SiCodesandbox, SiDevpost } from "react-icons/si";
 
 const Connect = () => {
   const connections = [
@@ -26,10 +26,10 @@ const Connect = () => {
     },
     {
       id: 4,
-      name: "Code Sandbox",
-      value: "My Coding Journey",
-      icon: SiCodesandbox,
-      link: "https://codesandbox.io/u/adityamoorjmalani53",
+      name: "Dev.to",
+      value: "Tech Blogs",
+      icon: SiDevpost,
+      link: "https://dev.to/aditya_moorjmalani_6ae6fb",
     },
   ];
   return (
