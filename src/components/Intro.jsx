@@ -20,7 +20,7 @@ const Intro = ({ onScrollClick }) => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1XrdAhauRcBh5CtTwD6TR6rl18l-fgE9M/view?usp=drive_link"
+              href="https://drive.google.com/file/d/19FVQj9tIfdSgQCs4fyYCori2zZzop80s/view?usp=drive_link"
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"
