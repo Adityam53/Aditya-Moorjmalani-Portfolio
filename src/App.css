@@ -115,11 +115,25 @@ body {
   gap: 1rem;
   align-items: center;
 }
+.demo-flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+}
 .tech-flex,
 .connection-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+}
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 3rem;
 }
 .projects-flex {
   display: grid;

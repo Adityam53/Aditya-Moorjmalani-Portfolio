@@ -101,12 +101,12 @@ const Projects = () => {
                     <h3 className="proj-name"> {proj.name}</h3>
                   </a>
                   <p className="project-descr">{proj.summary}</p>
-                  <div className="flex">
+                  <div className="tech-list">
                     {proj.tech.map((t) => (
                       <span className="tech">{t}</span>
                     ))}
                   </div>
-                  <div className="flex">
+                  <div className="demo-flex">
                     <a
                       className="icon-flex"
                       rel="noopener noreferrer"
