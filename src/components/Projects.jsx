@@ -16,7 +16,7 @@ const Projects = () => {
         "OpenAI",
         "React-Query",
       ],
-      demo: "https://matargashti-ai-travel-planner.vercel.app/",
+      demo: "https://voyara-ai-travel-planner.vercel.app/",
       code: "https://github.com/Adityam53/matargashti-AI-travel-planner",
     },
     {
@@ -37,7 +37,7 @@ const Projects = () => {
       img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sfGVufDB8fDB8fHww",
       tech: ["React", "Node.js", "Express", "MongoDb", "Redux-toolkit"],
       demo: "https://lern-nest.vercel.app/",
-      code: "https://github.com/Adityam53/LernNest%20",
+      code: "https://github.com/Adityam53/LernNest",
     },
     {
       id: 4,

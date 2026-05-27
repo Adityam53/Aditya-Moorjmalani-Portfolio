@@ -4,23 +4,24 @@ const Intro = ({ onScrollClick }) => {
       <div className="container">
         <div className="intro">
           <h1 className="name">Aditya Moorjmalani</h1>
-          <h3 className="role">full stack dev</h3>
+          <h3 className="role">
+            Full-Stack Developer • Building scalable web applications
+          </h3>{" "}
           <div className="dash"></div>
           <p className="description">
-            MERN-stack developer who loves building smooth, user-friendly
-            interfaces and reliable backend systems—all with clean,
-            easy-to-maintain code.
+            Full-stack MERN developer focused on building scalable,
+            user-friendly web applications with modern technologies and clean
+            architecture.
           </p>
           <p className="description">
-            I specialize in React, Node.js, and MongoDB to build apps that scale
-            well and actually feel good for people to use.
+            Passionate about turning ideas into impactful digital products.
           </p>
           <div className="flex">
             <a onClick={onScrollClick} className="contact-btn">
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/19FVQj9tIfdSgQCs4fyYCori2zZzop80s/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qVo4dJAhe8rLUCZm6rQPf_9TTRJUUsvi/view?usp=sharing"
               className="resume-btn"
               target="_blank"
               rel="noopener noreferrer"
