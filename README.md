@@ -1,16 +1,89 @@
-# React + Vite
+# Aditya Moorjmalani Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio website built to showcase my projects, skills, and experience as a web developer.
 
-Currently, two official plugins are available:
+This portfolio highlights my journey in frontend development and demonstrates my ability to build responsive, interactive, and modern web applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://aditya-moorjmalani-portfolio.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GitHub Repository
+
+https://github.com/Adityam53/Aditya-Moorjmalani-Portfolio.git
+
+---
+
+## Tech Stack
+
+React  
+JavaScript  
+CSS  
+
+---
+
+## Features
+
+- Responsive design for all screen sizes  
+- Dark mode support  
+- Smooth UI and clean layout  
+- Projects showcase section  
+- Skills section  
+- About / Introduction section  
+- Contact section  
+- Resume download/view button  
+
+---
+
+## Sections Overview
+
+### Introduction
+A brief personal introduction highlighting my role as a web developer and my passion for building user-friendly applications.
+
+### Projects
+Displays selected projects with descriptions and links to live demos or repositories.
+
+### Skills
+Lists core technical skills including frontend technologies and development tools.
+
+### Contact
+Provides a way to connect via email or social platforms.
+
+---
+
+## Key Highlights
+
+- Fully responsive layout  
+- Clean and minimal UI design  
+- Dark mode implementation  
+- Easy navigation across sections  
+- Optimized for performance and usability  
+
+---
+
+## Purpose of the Project
+
+This portfolio was built to present my work, skills, and development journey in a structured and professional way, making it easier for recruiters and collaborators to understand my capabilities.
+
+---
+
+## Future Improvements
+
+- Add backend integration for contact form  
+- Improve animations and transitions  
+- Add blog or articles section  
+- Enhance accessibility and SEO  
+- Add project filtering system  
+
+---
+
+## Author
+
+Aditya Moorjmalani
+
+## Contact
+adityamoorjmalani53@gmail.com
