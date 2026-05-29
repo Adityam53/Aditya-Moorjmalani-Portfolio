@@ -1,8 +1,8 @@
 # Aditya Moorjmalani Portfolio
 
-A personal developer portfolio website built to showcase my projects, skills, and experience as a web developer.
+A personal developer portfolio website built to showcase my projects, skills, and experience as a full-stack developer.
 
-This portfolio highlights my journey in frontend development and demonstrates my ability to build responsive, interactive, and modern web applications.
+This portfolio highlights my journey in full-stack development and demonstrates my ability to build responsive, interactive, and modern web applications.
 
 ---
 
