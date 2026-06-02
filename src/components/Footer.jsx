@@ -6,7 +6,12 @@ const Footer = () => {
           {" "}
           <p>&copy; 2025 Aditya Moorjmalani. All Rights Reserved</p>
           <p>Built with React.js</p>
-          <p>Learning full stack development at neog.camp</p>
+          <p>
+            Learning full stack development at{" "}
+            <a href="https://neog.camp/" target="_blank" className="href">
+              neog.camp
+            </a>{" "}
+          </p>
         </div>
       </div>
     </div>

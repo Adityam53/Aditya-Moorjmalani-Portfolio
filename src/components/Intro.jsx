@@ -3,9 +3,10 @@ const Intro = ({ onScrollClick }) => {
     <>
       <div className="container">
         <div className="intro">
-          <h1 className="name">Aditya Moorjmalani</h1>
+          <h1 className="name">Full-Stack Developer </h1>
           <h3 className="role">
-            Full-Stack Developer • Building scalable web applications
+            Building scalable web applications with React, Node.js, Express,
+            MongoDB, and AI integrations.
           </h3>{" "}
           <div className="dash"></div>
           <p className="description">
@@ -21,10 +22,9 @@ const Intro = ({ onScrollClick }) => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1qVo4dJAhe8rLUCZm6rQPf_9TTRJUUsvi/view?usp=sharing"
+              href="./Aditya_Moorjmalani_Resume_ex.pdf"
+              download="Aditya_Moorjmalani_Resume_ex.pdf"
               className="resume-btn"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               Resume
             </a>

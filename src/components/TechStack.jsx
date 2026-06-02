@@ -7,44 +7,57 @@ import {
 } from "react-icons/fa";
 
 import {
-  SiTailwindcss,
+  SiReact,
+  SiTypescript,
+  SiRedux,
+  SiReactquery,
+  SiNodedotjs,
   SiExpress,
   SiMongodb,
   SiMongoose,
-  SiGooglechrome,
-  SiVercel,
-  SiRedux,
   SiJsonwebtokens,
   SiOpenai,
   SiAxios,
-  SiReactquery,
-  SiChartdotjs,
   SiSocketdotio,
-  SiTypescript,
+  SiChartdotjs,
+  SiTailwindcss,
+  SiBootstrap,
+  SiGit,
+  SiGithub,
+  SiGooglechrome,
+  SiVercel,
+  SiSwagger,
+  SiPython,
+  SiFlask,
+  SiJavascript,
 } from "react-icons/si";
-
-import { VscSymbolMethod } from "react-icons/vsc";
-import { TbApi } from "react-icons/tb";
+import { VscVscode } from "react-icons/vsc";
+import { LuBrainCircuit } from "react-icons/lu";
 
 const TechStack = () => {
   const technologies = [
     // Core Frontend
-    { id: 1, tech: "React", icon: FaReact },
+    { id: 1, tech: "React", icon: SiReact },
+    { id: 26, tech: "JavaScript", icon: SiJavascript },
     { id: 2, tech: "TypeScript", icon: SiTypescript },
     { id: 3, tech: "Redux Toolkit", icon: SiRedux },
     { id: 4, tech: "React Query", icon: SiReactquery },
 
-    // Core Backend
-    { id: 5, tech: "Node.js", icon: FaNode },
+    { id: 5, tech: "Node.js", icon: SiNodedotjs },
     { id: 6, tech: "Express.js", icon: SiExpress },
+    { id: 23, tech: "Python", icon: SiPython },
+    { id: 24, tech: "Flask", icon: SiFlask },
+
     { id: 7, tech: "MongoDB", icon: SiMongodb },
     { id: 8, tech: "Mongoose", icon: SiMongoose },
     { id: 9, tech: "JWT Authentication", icon: SiJsonwebtokens },
-    { id: 10, tech: "REST APIs", icon: TbApi },
+    { id: 10, tech: "REST APIs", icon: SiSwagger },
 
     // AI & Modern Integrations
     { id: 11, tech: "OpenAI SDK", icon: SiOpenai },
-    { id: 12, tech: "OpenRouter", icon: TbApi },
+    { id: 12, tech: "OpenRouter", icon: SiSwagger },
+    { id: 25, tech: "Google Antigravity", icon: LuBrainCircuit },
+
     { id: 13, tech: "Axios", icon: SiAxios },
 
     // Data & Realtime
@@ -59,7 +72,7 @@ const TechStack = () => {
     { id: 18, tech: "Git", icon: FaGitAlt },
     { id: 19, tech: "GitHub", icon: FaGithub },
     { id: 20, tech: "Chrome DevTools", icon: SiGooglechrome },
-    { id: 21, tech: "VS Code", icon: VscSymbolMethod },
+    { id: 21, tech: "VS Code", icon: VscVscode },
     { id: 22, tech: "Vercel", icon: SiVercel },
   ];
   return (
@@ -72,7 +85,7 @@ const TechStack = () => {
         <div className="dash"></div>
         <div className="tech-flex">
           {technologies.map((tech) => (
-            <div className="tech-item">
+            <div key={tech.id} className="tech-item">
               {tech.icon && <tech.icon size={30} color="#8b5cf6" />}
               <span>{tech.tech}</span>
             </div>

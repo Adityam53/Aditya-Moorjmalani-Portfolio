@@ -12,22 +12,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a{
+a {
   color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
 }
-
+.href {
+  color: #c4b5fd;
+}
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100%;
 }
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
-
